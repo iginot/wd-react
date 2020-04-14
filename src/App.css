@@ -1,0 +1,122 @@
+h1 {
+  text-align: left;
+  font: 14px system-ui;
+  font-weight: bold;
+}
+.videoPreviewText {
+  text-align: left;
+  font: 12px system-ui;
+  color: slategray;
+  margin-bottom: 2px;
+  margin-top: 0;
+  position: relative;
+  left: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column-gap: 20px;
+  padding-left: 20px;
+}
+
+.smallImage{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  float: left;
+  z-index: -1;
+}
+
+.channelImage{
+  margin-top: 30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  z-index: -1;
+}
+
+#appLogo{
+  height: 10%;
+  width: 10%;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#homePageHeading{
+  text-align: left;
+  font: 20px system-ui;
+  padding-left: 20px;
+}
+
+.videoPreview{
+  padding-bottom: 10px;
+}
+
+.video{
+  background-color: black;
+}
+
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.videoTitle {
+  text-align: left;
+  font: 18px system-ui;
+  font-weight: bold;
+}
+
+.videoText {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.videoSubtitle {
+  text-align: left;
+  font: 14px system-ui;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.channelName {
+  text-align: left;
+  font: 14px system-ui;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.channelSubscription {
+  text-align: left;
+  font: 14px system-ui;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.channelText {
+  text-align: left;
+  font: 14px system-ui;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: grey;
+}
+
+.backButton {
+  background: red;
+  color: white;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  max-width: 120px;
+}
